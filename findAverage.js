@@ -1,5 +1,5 @@
 function findAverage(array) {
-  return 1
+  return (array.reduce((prev, curr) => prev + curr)/array.length)
 }
 
 module.exports = findAverage;
